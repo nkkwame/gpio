@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI BOT</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI BOT</h1>
+        <form method="post">
+            <label for="prompt">Enter Prompt</label><br>
+            <textarea id="prompt" name="prompt" rows="3" cols="50" placeholder="Type your message here..."></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="response">
+            <label>Response:</label>
+            <div id="response-field">{{ response }}</div>
+        </div>
+    </div>
+</body>
+</html>

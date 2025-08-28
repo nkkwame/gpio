@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}Contact - Kwame Nkrumah{% endblock %}
+{% block content %}
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:josephkwame.nkrumah@stu.ucc.edu.gh">josephkwame.nkrumah@stu.ucc.edu.gh</a></p>
+    <p>Available for freelance projects, consulting, and teaching.</p>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="3" cols="30"></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+    <p>
+        <a href="https://github.com/nkkwame" target="_blank">GitHub</a> |
+        <a href="https://linkedin.com/in/nkkwame" target="_blank">LinkedIn</a> |
+        <a href="mailto:josephkwame.nkrumah@stu.ucc.edu.gh">Email</a>
+    </p>
+{% endblock %}
